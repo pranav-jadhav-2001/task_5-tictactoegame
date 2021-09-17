@@ -1,0 +1,42 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+#touch_a{
+  color: yellow;
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+ font-size: 50px;
+}
+
+table {
+  width: 76vh;
+  height: 76vh;
+  margin: auto;
+  white-space: nowrap;
+  font-size: 10vh;
+}
+
+
+td,tr {
+  font-size: 10vh;
+  border-collapse: collapse;
+  border: 5px solid white;
+  padding-left: 30px;
+  white-space: nowrap;
+  width: 20%;
+  height: 20%;
+  padding: 0.5rem;
+  border-spacing: 0.5rem;
+}
+
+#box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9 {
+  opacity: 0.5;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+  vertical-align: middle;
+  top: 50vh;
+}
